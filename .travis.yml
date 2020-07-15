@@ -2,4 +2,4 @@ language: shell
 
 script:
   - ./test.sh
-  - shellcheck ./snatchmail
+  - shellcheck ./snatchmail.test.bats
