@@ -1,5 +1,8 @@
 #!/usr/bin/env bats
 
+load './test/libs/bats-support/load'
+load './test/libs/bats-assert/load'
+
 # tests for snatchmail
 @test "it creates a new file" {
   run sh snatchmail emails.txt result.txt
