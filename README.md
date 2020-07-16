@@ -1,5 +1,6 @@
 # Bats Test #
 [![Build Status](https://travis-ci.com/eprislac/bats-test.svg?branch=master)](https://travis-ci.com/eprislac/bats-test)
+___
 No, this has nothing to do with Batman or the small furry flying rodents.
 It has everything to do with a problem I've been facing at work, lately.
 You see, we have a large collection of legacy shell scripts that run the backbone of our operation. Up until now, these scripts have not been subject to much scrutiny, intimidating as they are to anyone but the gnarliest of neckbeards.
