@@ -23,6 +23,7 @@ load './helpers'
 
 setup() {
   run sh snatchmail emails.txt result.txt
+  echo "result.txt removed"
 }
 
 teardown() {
