@@ -3,3 +3,4 @@ language: shell
 script:
   - ./test.sh
   - shellcheck ./snatchmail
+  - shellcheck ./git-pun
