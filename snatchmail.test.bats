@@ -27,9 +27,5 @@ load './test/libs/bats-assert/load'
 }
 
 teardown {
-  if [ -f "./result.txt" ]
-  then
-    rm ./result.txt
-    echo 'result.txt removed'
-  fi
-
+  [ -f "./result.txt" ] && rm ./result.txt
+  echo "result.txt removed"
